@@ -1,0 +1,24 @@
+.more-screen .icon-raw {
+  margin-top: 35px;
+}
+.more-suggestions {
+  margin-top: 70px;
+  border-top: var(--main-border);
+  padding-top: 30px;
+}
+.more-suggestions__title {
+  margin-bottom: 30px;
+  font-size: 16px;
+  color: blanchedalmond;
+}
+.more-suggestions__image {
+  width: 360px;
+  height: 360px;
+  border-radius: 350px;
+  margin-left: 90px;
+  border: 1px solid black;
+}
+.more-suggestions__img {
+  margin-top: -450px;
+  margin-left: -90px;
+}

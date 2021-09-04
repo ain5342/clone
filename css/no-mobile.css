@@ -1,0 +1,23 @@
+#no-mobile {
+  position: absolute;
+  z-index: 99;
+  height: 100vh;
+  background-color: rgb(235, 240, 226);
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  top: 0;
+  color: rgb(101, 26, 142);
+  font-weight: 600;
+}
+@media screen and (max-width: 645px) {
+  #no-mobile {
+    display: none;
+  }
+}
+
+.no-monile__img {
+  width: 300px;
+}
