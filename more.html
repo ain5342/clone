@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>More-Kokoa clone</title>
+    <style>
+      @keyframes action{
+     from {
+        transform:rotateZ(0);
+     }
+     to{
+      transform:rotateZ(360deg);
+     }
+    }
+    img:hover{
+        animation: action 10s ease-in-out infinite;
+      }
+      .more-suggestions__title{
+        background-color :black;
+        width: 450px;
+        height: 450px;
+      }
+    </style>
+  </head>
+  <body> 
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span> No services</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="srcscreen-header__icons">More</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
+      
+        <span><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a></span>
+        
+        <span class="screen-header__icons__dot"></span>
+      </div>
+    </header>
+    <main class="main-screen more-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img 
+            src="https://mblogthumb-phinf.pstatic.net/MjAxOTA3MTRfNzkg/MDAxNTYzMDcwNzgyMzQ1.Z1R_XDl7pdH12xQWd-QIV4TvQxVsWcInNhsnEUbcOHUg.uLgFkhBTrhD0REflyTEKsQWC-HkfuInU9fUYc9AksUMg.JPEG.wmh0107/1563070757486.jpg?type=w800"
+            class="user-component__avatar user-component__avatar--xl"
+          />
+
+          <div class="user-component__bang">
+            <h4 class="user-component__title">Marnie</h4>
+            <h6 class="user-component__subtitle">+82 *** ****</h6>
+        <i class="fas fa-exclamation-circle"></i>
+      </div>
+    </div>
+        <div class="user-component__column">
+          <i class="far fa-comment-alt fa-2x"></i>
+        </div>
+      </div>
+      <div class="icon-raw">
+        <div class="icon-raw__icon">
+          <i class="far fa-calendar"></i></i><span>Calender</span>
+        </div>
+
+        <div class="icon-raw__icon">
+          <i class="fas fa-book"></i><span>Diary</span>
+        </div>
+        <div class="icon-raw__icon">
+          <i class="far fa-meh"></i><span>Emotions</span>
+        </div>
+        <div class="icon-raw__icon">
+          <i class="fas fa-home"></i><span>Oiwa Home</span>
+        </div>
+      </div>
+      <div class="more-suggestions">
+        <span><h4 class="more-suggestions__title">Find on the outside</h4></span>
+        <div class="more-suggestions__icons">
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image">
+              <span class="more-suggestions__icon-text"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="more-suggestions__img">
+      <img class="more-suggestions__image" src="https://lwlies.com/wp-content/uploads/2016/06/when-marnie-was-there-review-768x539-c-default.jpg"/>
+    </div>
+    <div class="icon-raw__icons">
+      <i class="far fa-play-circle fa-3x"></i>
+    </div>
+    </main>
+
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html">
+            <i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">1</span>
+            <i class="fas fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="nav__dot"></span>
+            <i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <div id="no-mobile">
+      <span>You are screen is too big ㅠㅠ</span>
+      <img src="https://mblogthumb-phinf.pstatic.net/20150828_34/waikiki0_1440699515709HT77i_GIF/%BE%C8%B3%AA31.gif?type=w2"/>
+          </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      ;
+      crossorigin="anonymous"
+      ;
+    ></script>
+  </body>
+</html>
